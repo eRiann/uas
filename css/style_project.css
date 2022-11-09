@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding-left: 125px;
+    padding-right: 125px;
+    background: linear-gradient(#2b1055, #1c0522);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    background: #fff;
+    color: #2b1055;
+}
+
+.batas{
+    margin-top: 130px;
+}
+
+.batas h1, p{
+    text-align: center;
+    color: #fff;
+}
+
+.card{
+    border: 3px solid blueviolet;
+    border-radius: 25px;
+    padding: 60px;
+    margin-top: 15px;
+}
+
+.heroimg img{
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.konten b{
+    color: #fff;
+    font-size: 20px;
+}
+
+.konten p{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+}
+
+.button{
+    margin-top: 15px;
+}
+
+.button a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.button button{
+    padding: 3px 25px;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    background: none;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.button button:hover{
+    border: 2px solid red;
+}
+
+.button button:active{
+    background: blueviolet;
+}
+
+.main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer span{
+    color: violet;
+}
