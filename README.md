@@ -1,1 +1,2 @@
-# febrian.github.io
+# Project UAS
+menyajikan landing page, profile, dan project praktikum yang dikerjakan
